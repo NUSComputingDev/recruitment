@@ -118,14 +118,14 @@ body {
 
 .user-panel img {
   border: #001346 solid 1px;
-  border-radius: 5px;
+  border-radius: 6px;
   margin-top: 5px;
   width: 40px;
 }
 
 .content-panel {
   background-color: #ffffff;
-  border: #001346 dashed 1px;
+  border: #fdb813 dashed 1px;
   border-radius: 10px;
   display: inline-block;
   max-width: 90%;
@@ -134,7 +134,7 @@ body {
 
 .content-panel .cellname {
   color: #001346;
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: 0.4em;
 }
 
