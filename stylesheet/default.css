@@ -18,11 +18,12 @@ body {
   background-color: #e91a44;
   border-radius: 10px;
   color: #fffef2;
+  display: inline-block;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
-  margin-left: auto;
-  margin-right: auto;
+  font-size: 1.2em;
   padding: 1em;
+  margin-top: 1em;
 }
 
 .banner-container {
@@ -32,6 +33,7 @@ body {
 }
 
 #page-image {
+  width: 37%;
 }
 
 .about-container, .writeup-container {
@@ -58,8 +60,8 @@ body {
 * page-info and its related child.
 */
 #page-info {
-  display: inline-block;
   margin-top: 1em;
+  text-align: center;
 }
 
 #page-info .title-left {
@@ -78,6 +80,7 @@ body {
   font-size: 72px;
   font-weight: 800;
   line-height: 60px;
+  text-align: left;
   vertical-align: top;
 }
 
@@ -118,9 +121,8 @@ body {
 
 .user-panel img {
   border: #001346 solid 1px;
-  border-radius: 6px;
-  margin-top: 5px;
-  width: 40px;
+  border-radius: 50%;
+  width: 50px;
 }
 
 .content-panel {
@@ -128,7 +130,7 @@ body {
   border: #fdb813 dashed 1px;
   border-radius: 10px;
   display: inline-block;
-  max-width: 90%;
+  max-width: 88%;
   padding: 1em;
 }
 
@@ -192,12 +194,15 @@ body {
   }
 
   #join-button {
-    float: right;
     font-size: 12px;
   }
 
   .banner-container {
     padding-bottom: 1em;
+  }
+
+  .user-panel img {
+    width: 40px;
   }
 
   .content-panel {
@@ -245,7 +250,6 @@ body {
   }
 
   #join-button {
-    float: right;
     padding: 0.8em;
   }
 
