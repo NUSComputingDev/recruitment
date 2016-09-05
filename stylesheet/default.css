@@ -14,7 +14,7 @@ body {
   width: 32%;
 }
 
-#join-button {
+.join-button {
   background-color: #e91a44;
   border-radius: 10px;
   color: #fffef2;
@@ -196,7 +196,7 @@ body {
     display: none;
   }
 
-  #join-button {
+  .join-button {
     font-size: 12px;
   }
 
@@ -253,7 +253,7 @@ body {
     display: none;
   }
 
-  #join-button {
+  .join-button {
     padding: 0.8em;
   }
 
