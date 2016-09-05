@@ -116,12 +116,15 @@ body {
 }
 
 .user-panel {
+  height: 100%;
   display: inline-block;
+  vertical-align: bottom;
 }
 
 .user-panel img {
   border: #001346 solid 1px;
   border-radius: 50%;
+  bottom: 0px;
   width: 50px;
 }
 
