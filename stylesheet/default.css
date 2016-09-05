@@ -133,8 +133,8 @@ body {
   border: #fdb813 dashed 1px;
   border-radius: 10px;
   display: inline-block;
-  max-width: 88%;
-  padding: 1em;
+  max-width: 94%;
+  padding: 1em 1em 0em 1em;
 }
 
 .content-panel .cellname {
@@ -258,7 +258,7 @@ body {
   }
 
   .content-panel {
-    max-width: 88%;
+    max-width: 90%;
   }
 }
 
