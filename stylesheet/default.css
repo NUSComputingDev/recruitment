@@ -156,6 +156,10 @@ body {
   border-bottom-right-radius: 0px;
 }
 
+.small-button {
+  font-size: 12px;
+}
+
 /* Small only */
 @media screen and (max-width: 39.9375em) {
   #logo {
