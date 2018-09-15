@@ -33,3 +33,8 @@
 .hero-body {
   margin-top: 50px;
 }
+
+.image.is-64x64 {
+  height: 128px;
+  width: 128px;
+}
