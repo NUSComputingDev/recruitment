@@ -35,10 +35,22 @@
 }
 
 .image.is-64x64 {
-  height: 128px;
-  width: 128px;
+  height: 120px;
+  width: 120px;
 }
 
-span.tag > a {
+span.tag a {
     color: white;
+}
+
+.media {
+  overflow: scroll;
+}
+
+.media {
+  -ms-overflow-style: none;  // IE 10+
+  overflow: -moz-scrollbars-none;  // Firefox
+}
+.media::-webkit-scrollbar {
+  display: none;  // Safari and Chrome
 }
